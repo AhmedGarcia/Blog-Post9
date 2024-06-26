@@ -10,6 +10,19 @@ header, footer {
     text-align: center;
 }
 
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+header button i {
+    margin-right: 0.5em;
+}
+
 main {
     padding: 1em;
 }
@@ -19,3 +32,44 @@ main {
     color: #fff;
 }
 
+.dark-mode header, .dark-mode footer {
+    background-color: #444;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    margin-top: 1em;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+button {
+    margin-top: 1em;
+    padding: 0.7em;
+    width: 100%;
+}
+
+#postsContainer .post {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+#backButton {
+    display: block;
+    margin: 1em 0;
+    padding: 0.7em;
+    width: 100%;
+}
