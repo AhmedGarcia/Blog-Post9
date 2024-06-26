@@ -1,15 +1,26 @@
 form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
 }
 
-label, input, textarea, button {
-  margin-bottom: 1em;
+label {
+  margin-top: 1em;
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
 }
 
 button {
-  padding: 0.5em;
+  margin-top: 1em;
+  padding: 0.7em;
+  width: 100%;
 }
+
 

@@ -1,11 +1,13 @@
-#blog-post {
-    max-width: 600px;
-    margin: 0 auto;
+#postsContainer .post {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
 }
 
-.blog-post {
-    border: 1px sold #ccc;
-    padding: 1em;
-    margin-bottom: 1em;
+#backButton {
+    display: block;
+    margin: 1em 0;
+    padding: 0.7em;
+    width: 100%;
 }
+
 

@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog - Posts</title>
+    <title>My Blog - Posts</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/blog.css">
 </head>
 <body>
     <header>
         <h1>Blog Posts</h1>
-        <button id="toggle-mode">Toggle Light/Dark Mode</button>
-        <button id="back-button">Back</button>
+        <button id="modeToggle">Toggle Light/Dark Mode</button>
     </header>
-    <main id="blog-posts">
-        <!-- Blog posts will be dynamically rendered here -->
+    <main>
+        <button id="backButton">Back</button>
+        <section id="postsContainer">
+            <!-- Blog posts will be dynamically inserted here -->
+        </section>
     </main>
     <footer>
-        <a href="https://yourportfolio.com">Developer's Portfolio</a>
+        <a href="https://your-portfolio-link.com">Developer's Portfolio</a>
     </footer>
-    <script src="assets/js/blog.js"></script>
     <script src="assets/js/logic.js"></script>
+    <script src="assets/js/blog.js"></script>
 </body>
 </html>
