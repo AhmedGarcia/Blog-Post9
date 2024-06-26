@@ -1,0 +1,11 @@
+#blog-post {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    border: 1px sold #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+

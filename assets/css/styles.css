@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    padding: 1em;
+}
+
+.error-message {
+    color: red;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
