@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog - Add Post</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/form.css">
 </head>
 <body>
     <header>
         <h1>My Blog</h1>
+        <button id="modeToggle"><i class="fas fa-sun"></i> Toggle Light/Dark Mode</button>
     </header>
     <main>
         <form id="blogForm">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
-
             <label for="title">Title:</label>
             <input type="text" id="title" name="title" required>
-
             <label for="content">Content:</label>
             <textarea id="content" name="content" required></textarea>
-
             <button type="submit">Submit</button>
         </form>
     </main>
@@ -29,5 +28,8 @@
         <a href="https://your-portfolio-link.com">Developer's Portfolio</a>
     </footer>
     <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
 </body>
+
 </html>
+
